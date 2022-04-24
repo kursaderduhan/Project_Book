@@ -1,0 +1,14 @@
+node_modules/
+build/
+out/
+
+.DS_Store
+
+*.log
+**/target/
+
+.vscode
+
+neardev/
+
+starter--near-sdk-as/
