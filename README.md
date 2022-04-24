@@ -53,6 +53,6 @@ near view $CONTRACT getIdea
 Donate To The Owner Of The Idea.
 
 ```bash
-near call $CONTRACT donation '{"idea": "<project_id_here>"}' --accountId <your_testnet_account_here> amount 2
+near call $CONTRACT donation '{"idea": "<project_id_here>"}' --accountId <your_testnet_account_here> --amount 2
 
 
