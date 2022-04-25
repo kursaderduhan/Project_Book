@@ -9,7 +9,7 @@ echo "Step 1: Build the contract (may take a few seconds)"
 echo ---------------------------------------------------------
 echo
 
-yarn build
+yarn build:release
 
 echo
 echo
@@ -39,6 +39,7 @@ echo "    see example below (this may not work on Windows)"
 echo
 echo ---------------------------------------------------------
 echo 'export CONTRACT=<dev-123-456>'
+echo 'export NEAR_ACCOUNT=<Your_Near_Account>'
 # uncomment this line for a useful hint when using the singleton style
 # echo "near call \$CONTRACT init --accountId \$CONTRACT"
 echo ---------------------------------------------------------

@@ -13,12 +13,12 @@ export class ProjectIdea{
         this.idea = idea;
         this.ideaOwner = context.sender;    
     }
-    static addIdea(idea: string): ProjectIdea {
+    static addIdea(idea: string): string {
         assert(projectsStorage.length < IDEA_LIMIT, "IDEA_LIMIT");
         assert(idea.length > 0, "Idea must not be empty!");
         let projectIdea = new ProjectIdea(idea);
         projectsStorage.set(projectIdea.id, projectIdea);
-        return projectIdea;
+        return projectIdea.id;
     }
     static getIdea(id: string): ProjectIdea | null {
         return projectsStorage.get(id);

@@ -6,7 +6,7 @@ export function donation(idea: string): void {
 } 
 
 // idea - to add a idea to blockchain.
-export function addIdea(idea: string): ProjectIdea{
+export function addIdea(idea: string): string{
   return ProjectIdea.addIdea(idea);
 }
 
