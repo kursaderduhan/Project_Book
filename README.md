@@ -38,7 +38,7 @@ Create a Idea.
 near call $CONTRACT addIdea '{"idea": "Car_Rental"}' --accountId <Your_Testnet_Account_Here>
 ```
 
-List All İdeas.
+List All Ideas.
 
 ```bash
 near view $CONTRACT getIdeas
