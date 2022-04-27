@@ -47,7 +47,7 @@ near view $CONTRACT getIdeas
 Call Idea With Id.
 
 ```bash
-near view $CONTRACT getIdea
+near view $CONTRACT getIdea '{"id": "<Project_ID_here>"}'
 ```
 
 Donate To The Owner Of The Idea.
