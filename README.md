@@ -1,6 +1,9 @@
 # Near-Project-Book
 
-This project is a simple projectstore on Near blockchain. Users can post their ideas, review ideas and donate to the owner if they want.
+This project is a simple projectstore on Near blockchain. Users can post their ideas, review ideas and donate to the owner if they want. <br/>
+
+You can watch this video for use. [loom video](https://www.loom.com/share/f279ccd9fe6d4022b80cb66c85ce7980)
+
 
 ## Installation 
 
